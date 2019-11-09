@@ -1,0 +1,88 @@
+body {
+  background: white;
+  margin: auto;
+  padding: 90;
+  text-align: center;
+  background-image: url("https://stmed.net/sites/default/files/sports-wallpapers-31391-1800299.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 85%;
+background-position: 0% 100%
+
+}
+p
+ {
+
+  color: #000000;
+  font-family: all;
+  font-size:30px
+
+}
+
+section {
+ box-sizing: border-box;
+ color: black;
+ background-color: white;
+ background-size: 500px 50px;
+ border-style:solid;
+ border-color: white;
+  padding: 0px 400px;
+  
+  top: 0;
+  width: 100%;
+font-size: 40px}
+
+}
+footer {
+ text-align: bottom;
+
+}
+.rotateimg180 {
+  -webkit-transform:rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+
+
+li {
+  text-align: right;
+ list-style-type: none;
+  font-weight: 1000;
+  font-size: 20px;
+
+}
+
+
+li a.active{
+  background-color: darkgreen;
+}
+li a:hover:not(.active) {
+  background-color: darkgreen;
+  color: white;
+}
+
+
+footer{
+  
+  color:white;
+  background-color:black;
+  text-align: center;
+  text-align: bottom;
+
+}
+h1 {
+float: left; 
+outline-style: solid;
+background-color: white;
+
+}
+div {
+outline-style: solid;
+background-color: white;
+}
+
+form { 
+text-align: right; }
