@@ -1,11 +1,9 @@
 
 body{
 font-family: sans-serif;
-
 background-size: cover;
 animation: #ffffff;
 }
-
 
 .content{
 	grid-area: content;
@@ -61,14 +59,5 @@ nav li:hover{
 	transition: .1s;
 }
 .center{
-
 	background-color: #ffffff;
 }
-
-
-
-
-
-
-
-
