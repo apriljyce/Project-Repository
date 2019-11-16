@@ -3,10 +3,16 @@
 <html>
 <head>
 	<title> UC Sports</title>
-	<img align="left" src="logo.jfif" height="125" width="100">
+		<img align="left" src="logo.jfif" height="125" width="100">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<link rel="stylesheet" type="text/css" href="css/style.css">
-		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+<style>
+.mySlides {display:none;}
+</style>
 
 </head>
 <body>
@@ -25,20 +31,56 @@
     	</div>
 
 
-<div align="center">
-    <a href="yourlink.com" target="_blank">
-        <img style="float:left;" src="basketball.jpg" width="300" height="300" border="10">
-    </a>
-    <a href="yourlink.com" target="_blank">
-        <img style="float:left;" src="sports.jpg"width="300" height="300" border="10">
-    </a>
-    <a href="yourlink.com" target="_blank">
-        <img style="float:left;" src="volleyball.png" width="300" height="300" border="10">
-    </a>
+<div class="w3-container">
+ <div class="w3-content w3-display-container">
+
+<div class="w3-display-container mySlides">
+  <img style="width:100%" height="400" src="basketball.jpg" >
+  <div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
+    Basketball
+  </div>
+</div>
+
+<div class="w3-display-container mySlides">
+  <img style="width:100%" height="400" src="sports.jpg" >
+  <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
+    Sports
+  </div>
+</div>
+
+<div class="w3-display-container mySlides">
+  <img style="width:100%" height="400" src="volleyball.png"  s>
+  <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
+    Sports
+  </div>
+</div>
+</div>
+
+<button class="w3-button w3-display-left w3-black" onclick="plusDivs(-1)">&#10094;</button>
+<button class="w3-button w3-display-right w3-black" onclick="plusDivs(1)">&#10095;</button>
+
 </div>
 
 
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
 
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
 
 	</body>
 </html>
