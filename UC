@@ -39,7 +39,6 @@
 			<p>Uc shall help preserve and develop Filipino culture and values, shall assist in rearing the Filipino youth to their fullest potentials by training them to think critically and creatively, to act positively, to contribute to the development of a wholesome family, community and the larger society.</p>
 		</font>
 	</div>
-
 	<div id = mission>
 		<section><strong><font color="red" size="4" face="broadway">Mission</font></strong></section>
 		<font size="3" face="calibri">
@@ -64,6 +63,5 @@
 			<p>8. Periodically update its curricular offerings to keep abreast with the ever changing environment. <br></p>
 		</font>
 	</div>
-
 </body>
 </html>
