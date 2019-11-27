@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>University of the Cordilleras</title>
+</head>
+<body>
+	<style>
+		p { text-indent: 50px; }
+	</style>
+	<div id="UC History">
+		<section><strong><font color="red" size="4" face="broadway">The History of the University of the Cordilleras</font></strong></section>
+		<font size="3" face="calibri">
+			<p>Baguio Colleges, as the University of the Cordilleras was earlier known, pioneered in tertiary education in the mountain highlands of the Cordillera region amidst devastation in and around Baguio City after the Second World War. <br></p>
