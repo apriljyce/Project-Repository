@@ -6,7 +6,7 @@
 </head>
 <body>
 	<style>
-		p { text-indent: 50px; }
+		p { text-indent: 50px; } 
 	</style>
 	<div id="UC History">
 		<section><strong><font color="red" size="4" face="broadway">The History of the University of the Cordilleras</font></strong></section>
