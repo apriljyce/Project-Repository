@@ -1,0 +1,104 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+	    <title>UC Sports Bulletin</title>
+        <link rel="stylesheet" type="text/css" href="styles/main.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	</head>
+	<body>
+ <header class="navbar">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <img class="logo" src="logo.jfif" alt="Uc Mascot" style="width: 10%; height: 10%">
+
+       <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <img class="logo" src="logo.jfif" alt="Uc Mascot" style="width: 10%; height: 10%">
+      <nav class="navbar fixed-top navbar-expand navbar-light bg-light" style="padding-bottom: 0px">
+        <img class="logo" src="logo.jfif" alt="Uc Mascot" style="width: 10%; height: 10%">
+          <h3>UC Sports Bulletin</h3>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+       <div class="collapse navbar-collapse" id="navbarSupportedContent" style="padding: 5px 0 5px 100px">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <li class="nav-item active" style="padding-left: 90px">
+                <a class="nav-link" href="Homepage1.html">Home </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="highlight.html" style="padding-left: 120px">Highlights<span class="sr-only">(current)</span></a>
+                  <li class="nav-item">
+                    <a class="nav-link" href="UC.html" style="padding-left: 120px">About Us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="ImTheMap.html" style="padding-left: 120px">Events Location</a>
+                  </li> 
+          </ul>
+        </div>
+      </nav>
+        </div>
+  </header>
+      <div class="container">
+         <div class="row">
+            <div class="col-sm-3 col-xs-6">
+               <div class="panel panel-default">
+                  <h3><div class="panel-heading">Trending News</div></h3>
+                     <div class="list-group">
+                        <a href="#" class="list-group-item list-group-item-action">
+                           <div class="d-flex w-100 justify-content-between">
+                           <h5 class="mb-1">News #1</h5>
+                           <small class="text-muted">32 mins ago</small>
+                           </div>
+                           <p class="mb-1">blah blah blah blah blah blah blah blah</p>
+                           <small class="text-muted">by Juan Dela Cruz</small>
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-action">
+                           <div class="d-flex w-100 justify-content-between">
+                           <h5 class="mb-1">News 2</h5>
+                           <small class="text-muted">10 hours ago</small>
+                           </div>
+                           <p class="mb-1">blah blah blah blah blah blah blah blah</p>
+                           <small class="text-muted">by John Doe</small>
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-action">
+                           <div class="d-flex w-100 justify-content-between">
+                           <h5 class="mb-1">News 3</h5>
+                           <small class="text-muted">3 days ago</small>
+                           </div>
+                           <p class="mb-1">blah blah blah blah blah blah blah blah</p>
+                           <small class="text-muted">by Manong Driver</small>
+                        </a>
+                     </div>
+               </div>                          
+            </div>
+            <div class="col-sm-6 col-xs-12">
+               <div class="panel panel-default">
+                  <h3><div class="panel-heading">Competition Bracket</div></h3>
+                  <img class="bracket" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/SixteenPlayerSingleEliminationTournamentBracket.svg/1200px-SixteenPlayerSingleEliminationTournamentBracket.svg.png" alt="bracket" style="width: 100%; height: 50%">
+               </div>                          
+            </div>
+            <div class="col-sm-3 col-xs-6">
+               <div class="panel panel-default">
+                  <h3><div class="panel-heading">Upcomming Events</div></h3>
+                  <ul class="list-group">
+                    <li class="list-group-item active">November 15, 2019</li>
+                    <li class="list-group-item">November 19, 2019</li>
+                    <li class="list-group-item">November 28, 2019</li>
+                    <li class="list-group-item">November 29, 2019</li>
+                    <li class="list-group-item">November 30, 2019</li>
+                    <li class="list-group-item">December 5, 2019</li>
+                    <li class="list-group-item">December 7, 2019</li>
+                    <li class="list-group-item">December 8, 2019</li>
+                  </ul>
+               </div>                          
+            </div>
+         </div>        
+      </div>
+   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	</body>
+	<footer>
+	</footer>
+<html>
